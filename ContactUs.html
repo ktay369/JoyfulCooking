@@ -25,20 +25,20 @@
 	</div>
 
 	<body>
-		<form id="ContactUs" style="width: 42em;height: 15.75em;">
-  			Name:
-  			<br>
-  			<input type="text" name="name">
-  			<br>
-  			E-mail:
-  			<br>
-  			<input type="email" name="email" required>
-  			<br>
-  			Questions or Comments:
-  			<br>
-  			<textarea type="text" name="message" rows="8" cols="45" required></textarea>
-  			<br>
-  			<input type="submit">
-		</form>
-	</body>
+		<form method="POST" action="http://formspree.io/cookingjoyful@gmail.com" id="ContactUs" style="width:42em; height:15.75em;">
+            Name:
+            <br>
+            <input type="text" name="name" required>
+            <br>
+            Email Address:
+            <br>
+            <input type="email" name="email" placeholder="Your email" required>
+            <br>
+            Questions or Comments:
+            <br>
+            <textarea name="message" placeholder="Your message" rows="8" cols="45" required></textarea>
+            <br>
+  <button type="submit">Send</button>
+</form>
+	</body>	
 </html>
